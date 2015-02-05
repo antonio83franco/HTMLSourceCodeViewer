@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item>    
+    <shape>
+        <gradient
+            android:type="radial"
+            android:startColor="#FA7100"
+            android:endColor="#DA5100"
+            android:gradientRadius="500"
+            android:angle="270"
+            android:centerX="0.5"
+            android:centerY="0.1"/>
+    </shape>
+</item>        
+</selector><!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/src/main/res/color/splash.xml -->

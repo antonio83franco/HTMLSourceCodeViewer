@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8" />
+<link rel=stylesheet href="./doc/docs.css">
+<link rel="stylesheet" href="./lib/codemirror.css">
+<style type="text/css">
+body {
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(250,113,0,1) 0%,rgba(218,81,0,1) 100%);
+}
+
+textarea {
+	background-color: transparent;
+	border: none;
+}
+
+button {
+	padding: 20px 30px;
+	background-color: #000;
+	color: #fff;
+	border: none;
+	font-size: 1.2em;
+	border-radius: 25px;
+}
+
+.CodeMirror {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#wait {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin-top: 20%;
+}
+
+#wait > p {
+	font-weight: bold;
+}
+
+#error {
+	display: none;
+	text-align: center;
+}
+
+#url-error {
+	color: #fff;
+}
+
+</style>
+</head>
+<body>
+	<div id="editor">
+		<form>
+			<textarea id="code" name="code"></textarea>
+		</form>
+	</div>
+	<div id="wait">
+		<img alt="spinner" src="./img/spinner.gif">
+		<p>Hold on...</p>
+		<p>I am making the HTML code nice and colored</p>
+	</div>
+	<div id="error">
+		<img alt="error" src="./img/error.png" width="100px">
+		<div>Unable to get the source code from <p id="url-error"></p></div>
+		<button id="try-again">Try again</button>
+	</div>
+	<script>
+
+	function init() {}
+	
+	document.addEventListener("DOMContentLoaded", function(event) {
+		init();
+	});
+	
+	function setHtmlSource(source) {
+		cleanPreviousViewIfAny();
+ 		var unEscapedSource = htmlUnescape(source);
+		var textarea = document.getElementById("code");
+		textarea.value = unEscapedSource;
+ 	  	CodeMirror.fromTextArea(textarea, {
+			  mode: "application/xml",
+			  styleActiveLine: false,
+			  lineNumbers: true,
+			  lineWrapping: true
+		});
+	 	editorReady();
+	 	showFindBarJS();
+	}
+		
+	function cleanPreviousViewIfAny() {
+		var codeMirror = document.getElementsByClassName('CodeMirror');
+		if(codeMirror && codeMirror.length > 0) {
+			codeMirror[0].parentNode.removeChild(codeMirror[0]);
+		}
+	}
+	
+	function htmlUnescape(value){
+	    return String(value)
+	        .replace(/&quot;/g, '"')
+	        .replace(/&#39;/g, "'")
+	        .replace(/&lt;/g, '<')
+	        .replace(/&gt;/g, '>')
+	        .replace(/&amp;/g, '&')
+	        .replace(/&#47;/g, '/')
+	        .replace(/@@@/g, '.')
+	        .replace(/&#13;/g, '\n');
+	}
+	
+	function editorReady() {
+		document.getElementById('wait').style.display = "none";
+	}
+	
+	function showEmptySource(url) {
+		document.getElementById("try-again").onclick = function() {
+			tryAgainJS();
+		};
+		editorReady();
+		document.getElementById('error').style.display = "block";
+		document.getElementById('url-error').innerHTML = htmlUnescape(url);
+	}
+	
+	function findString(findMe) {
+		var searchFor = htmlUnescape(findMe);
+		window.find(searchFor, false, false, true, false, true, false)	
+		//aString, aCaseSensitive, aBackwards, aWrapAround, aWholeWord, aSearchInFrames, aShowDialog        
+	}
+	
+	function showFindBarJS() {
+		Android.showFindBar();
+	}
+	
+	function tryAgainJS() {
+		Android.tryAgain();
+	}
+	</script>
+	<script src="./lib/codemirror.js"></script>
+	<script src="./mode/xml.js"></script>
+</body>

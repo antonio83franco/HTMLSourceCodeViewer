@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HTML Source Viewer</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_text">Show source</string>
+    <string name="field_url_hint">E.g. yoursite.com</string>
+    <string name="field_find_hint">Find...</string>
+    <string name="button_find">Go</string>
+    <string name="alert_url_invalid">OHH NO! The URL provided is not valid, try with something like: www.yoursite.com</string>
+    <string name="title_activity_type_url">TypeUrlActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="menu_rateApp">Rate App</string>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity$SourceCodeFragment" >
+    
+    <WebView
+        android:id="@+id/source_code"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/field_find" />
+
+    <EditText
+        android:id="@+id/field_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/button_find"
+        android:background="@drawable/edit_text_find"
+        android:ems="10"
+        android:hint="@string/field_find_hint"
+        android:inputType="textUri"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:textColor="@android:color/black" 
+		>
+    </EditText>
+
+    <Button
+        android:id="@+id/button_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_find"
+        android:text="@string/button_find"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="4dp"
+        android:textColor="#FFF" />
+
+</RelativeLayout>
+<!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/src/main/res/layout/fragment_source_code.xml -->

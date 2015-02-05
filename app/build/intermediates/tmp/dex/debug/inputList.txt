@@ -1,0 +1,3 @@
+/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/classes/debug
+/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/pre-dexed/debug/jsoup-1.7.2-8a62ec0c39b09a2b44b562718924876d59aefbdf.jar
+/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-b44514bf4ab6aa437a9ce9ec23cae267d3250159.jar

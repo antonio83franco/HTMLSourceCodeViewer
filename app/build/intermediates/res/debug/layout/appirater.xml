@@ -38,4 +38,4 @@
         android:layout_marginBottom="10dp"
         android:text="@string/rate_cancel" />
 
-</LinearLayout><!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/appirater-android-master/src/main/res/layout/appirater.xml --><!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater-android-master/unspecified/res/layout/appirater.xml -->
+</LinearLayout><!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/appirater/src/main/res/layout/appirater.xml --><!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater/unspecified/res/layout/appirater.xml -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater-android-master/unspecified/res/values-sk/values.xml -->
+    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater/unspecified/res/values-sk/values.xml -->
     <eat-comment/>
     <string name="rate">Ohodnotiť %s</string>
     <string name="rate_cancel">Nie, ďakujem</string>

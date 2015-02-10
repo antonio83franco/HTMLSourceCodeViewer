@@ -28,8 +28,8 @@ public class HtmlResourcesFragment extends ListFragment {
 
 		MainActivity mainActivity = (MainActivity) this.getActivity();
 
-		ArrayList<String> jsResources = mainActivity.htmResources.get(MyApp.JS);
-		ArrayList<String> cssResources = mainActivity.htmResources.get(MyApp.CSS);
+		ArrayList<String> jsResources = mainActivity.htmlResources.get(MyApp.JS);
+		ArrayList<String> cssResources = mainActivity.htmlResources.get(MyApp.CSS);
 		
 		ArrayList<ListRow> result = new ArrayList<ListRow>();
 		

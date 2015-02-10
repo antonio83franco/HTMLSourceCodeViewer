@@ -34,4 +34,4 @@
                 android:bottom="10dp" />
         </shape>
     </item>
-</selector><!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/appirater-android-master/src/main/res/drawable/button_appirator.xml --><!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater-android-master/unspecified/res/drawable/button_appirator.xml -->
+</selector><!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/appirater/src/main/res/drawable/button_appirator.xml --><!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater/unspecified/res/drawable/button_appirator.xml -->

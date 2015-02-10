@@ -10,7 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/appirater-android-master" />
+            <option value="$PROJECT_DIR$/appirater" />
           </set>
         </option>
       </GradleProjectSettings>

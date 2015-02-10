@@ -47,7 +47,7 @@ public class TypeUrlActivity extends Activity {
 	}
 
 	private String setLastUrl(EditText textField) {
-		//Rread last URL from cache if any
+		//Get the last entered URL from cache if any
 		SharedPreferences prefs = getSharedPreferences(MyApp.CACHE, Activity.MODE_PRIVATE);
 		String lastUrl = prefs.getString(MyApp.LAST_URL, "");
 		
@@ -76,7 +76,7 @@ public class TypeUrlActivity extends Activity {
 	}
 	
 	public void triggerSourceCodeLoader() {
-        //start service to fetch the url source code
+        //start service to fetch the url's source code
 		SourceCodeLoader loader = new SourceCodeLoader(this);
 		loader.execute(WebUtils.checkHttpPrefix(enteredUrl));
 		//calls showSourceCode when done

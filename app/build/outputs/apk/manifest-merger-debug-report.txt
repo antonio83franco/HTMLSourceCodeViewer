@@ -17,7 +17,7 @@ ADDED from AndroidManifest.xml:2:1
 		INJECTED from AndroidManifest.xml:0:0
 uses-sdk
 ADDED from AndroidManifest.xml:7:5
-MERGED from sourcecodeviewer:appirater-android-master:unspecified:7:5
+MERGED from sourcecodeviewer:appirater:unspecified:7:5
 	android:targetSdkVersion
 		ADDED from AndroidManifest.xml:9:9
 		INJECTED from AndroidManifest.xml:0:0
@@ -32,7 +32,7 @@ ADDED from AndroidManifest.xml:11:5
 		ADDED from AndroidManifest.xml:11:22
 application
 ADDED from AndroidManifest.xml:13:5
-MERGED from sourcecodeviewer:appirater-android-master:unspecified:11:5
+MERGED from sourcecodeviewer:appirater:unspecified:11:5
 	android:label
 		ADDED from AndroidManifest.xml:17:9
 	android:allowBackup

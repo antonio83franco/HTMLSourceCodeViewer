@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater-android-master/unspecified/res/values-el/values.xml -->
+    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater/unspecified/res/values-el/values.xml -->
     <eat-comment/>
     <string name="rate">Βαθμολόγηση του %s</string>
     <string name="rate_cancel">Όχι, ευχαριστώ</string>

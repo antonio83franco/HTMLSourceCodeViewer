@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater-android-master/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater/unspecified/res/values/values.xml -->
     <eat-comment/>
     <bool name="appirator_test_mode">false</bool>
     <color name="appirator_button_end_color">#ff2f6699</color>
@@ -10,7 +10,7 @@
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater-android-master/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater/unspecified/res/values/values.xml -->
     <eat-comment/>
     <integer name="appirator_days_before_reminding">3</integer>
     <integer name="appirator_days_until_prompt">30</integer>
@@ -22,7 +22,7 @@
     <string name="action_settings">Settings</string>
     <string name="alert_url_invalid">OHH NO! The URL provided is not valid, try with something like: www.yoursite.com</string>
     <string name="app_name">HTML Source Viewer</string>
-    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater-android-master/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="appirator_app_title">Your App Name</string>
     <string name="appirator_market_url">market://details?id=%s</string>
@@ -34,7 +34,7 @@
     <string name="field_url_hint">E.g. yoursite.com</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_rateApp">Rate App</string>
-    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater-android-master/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="rate">Yes, Rate %s</string>
     <string name="rate_cancel">No, Thanks</string>
@@ -59,7 +59,7 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater-android-master/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="appiratorButton" parent="android:Widget.Button">
         <item name="android:background">@drawable/button_appirator</item>

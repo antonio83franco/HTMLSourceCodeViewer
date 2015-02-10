@@ -1,1 +1,1 @@
-include ':app', ':appirater-android-master'
+include ':app', ':appirater'

@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/appirater-android-master/appirater-android-master.iml" filepath="$PROJECT_DIR$/appirater-android-master/appirater-android-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appirater/appirater.iml" filepath="$PROJECT_DIR$/appirater/appirater.iml" />
       <module fileurl="file://$PROJECT_DIR$/sourcecodeviewer.iml" filepath="$PROJECT_DIR$/sourcecodeviewer.iml" />
     </modules>
   </component>

@@ -23,5 +23,5 @@ android {
 dependencies {
     compile 'com.android.support:support-v4:18.0.0'
     compile files('libs/jsoup-1.7.2.jar')
-    compile project(':appirater-android-master')
+    compile project(':appirater')
 }

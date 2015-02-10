@@ -1,18 +1,12 @@
 package com.zupilupi.sourcecodeviewer;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.sbstrm.appirater.Appirater;
-import com.zupilupi.sourcecodeviewer.fragments.HtmlResourcesFragment;
-import com.zupilupi.sourcecodeviewer.fragments.PreviewFragment;
-import com.zupilupi.sourcecodeviewer.fragments.SourceCodeFragment;
 import com.zupilupi.sourcecodeviewer.fragments.utils.WebUtils;
 
 import java.util.ArrayList;
@@ -28,7 +22,7 @@ public class MainActivity extends FragmentActivity {
 	public String enteredUrl = "";
 	public String htmlResult = "";
 	public String escapedHtmlResult = "";
-	public HashMap<String, ArrayList<String>> htmResources;
+	public HashMap<String, ArrayList<String>> htmlResources;
 
 	/**
 	 * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -49,9 +43,6 @@ public class MainActivity extends FragmentActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-        //init App Rater
-        Appirater.appLaunched(this);
-
 		setContentView(R.layout.activity_main);
 		((MyApp) this.getApplication()).appLaunched(this);
 
@@ -60,15 +51,16 @@ public class MainActivity extends FragmentActivity {
 		this.htmlResult = ((MyApp)getApplication()).HTML_CODE;
 		this.escapedHtmlResult = ((MyApp)getApplication()).HTML_CODE_ESCAPED;
 		
-		this.htmResources = WebUtils.getHtmlResources(this.htmlResult,
+		this.htmlResources = WebUtils.getHtmlResources(this.htmlResult,
 				this.enteredUrl);
 
+        //show a descriptive title on the action bar
 		setTitle("HTML: "+this.enteredUrl);
 		
 		// Create the adapter that will return a fragment for each of the three
 		// primary sections of the app.
 		mSectionsPagerAdapter = new SectionsPagerAdapter(
-				getSupportFragmentManager());
+				getSupportFragmentManager(), numActiveFragments);
 
 		// Set up the ViewPager with the sections adapter.
 		mViewPager = (ViewPager) findViewById(R.id.pager);
@@ -96,55 +88,6 @@ public class MainActivity extends FragmentActivity {
 	    default:
 	        return super.onOptionsItemSelected(item);
 	    }
-	}
-	
-	/**
-	 * A {@link FragmentPagerAdapter} that returns a fragment corresponding to
-	 * one of the sections/tabs/pages.
-	 */
-	public class SectionsPagerAdapter extends FragmentPagerAdapter {
-
-		public SectionsPagerAdapter(FragmentManager fm) {
-			super(fm);
-		}
-
-		@Override
-		public Fragment getItem(int position) {
-
-			Fragment fragment;
-			switch (position) {
-			default:
-			case 0:
-				fragment = new SourceCodeFragment();
-				break;
-			case 1:
-				fragment = new HtmlResourcesFragment();
-				break;
-			case 2:
-				fragment = new PreviewFragment();
-				break;
-			}
-			return fragment;
-		}
-
-		@Override
-		public int getCount() {
-			return numActiveFragments;
-		}
-
-		@Override
-		public CharSequence getPageTitle(int position) {
-			switch (position) {
-			case 0:
-				return "source-code";
-			case 1:
-				return "resources";
-			case 2:
-				return "preview";
-			default:
-				return "";
-			}
-		}
 	}
 
 }

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/appirater-android-master/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="rate">Notez %s</string>
+    <string name="rate_cancel">Non, Merci</string>
+    <string name="rate_later">Rappelez-moi plus tard</string>
+    <string name="rate_message">Si vous aimez %s, voulez-vous prendre un moment pour l\'évaluer? Cela ne vous prendra pas plus d\'une minute. Merci de votre soutien!</string>
+    <string name="rate_title">Notez %s</string>
+</resources>

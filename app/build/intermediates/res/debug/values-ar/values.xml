@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater-android-master/unspecified/res/values-ar/values.xml -->
+    <eat-comment/>
+    <string name="rate">قيم %s</string>
+    <string name="rate_cancel">لا شكرا</string>
+    <string name="rate_later">ذكرني لاحقا</string>
+    <string name="rate_message">إذا كنت تستمع باستخدام %s، فهل تمانع بأن تأخذ دقيقة من وقتك لتقيمه؟ لن يستغرق الأمر أكثر من دقيقة. شكرا لدعمك!</string>
+    <string name="rate_title">قيم %s</string>
+</resources>

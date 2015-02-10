@@ -15,5 +15,12 @@
         sha1="872693211fd68d1c4e116cf90021603207725e19">
         <dex dex="/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/pre-dexed/debug/jsoup-1.7.2-8a62ec0c39b09a2b44b562718924876d59aefbdf.jar" />
     </item>
+    <item
+        jar="/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater-android-master/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="89a579866fd588ce04e7465068f92b6448b509bd">
+        <dex dex="/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/pre-dexed/debug/classes-dbfdb2b8975bfd9685b65c87a418d59456dfc4a9.jar" />
+    </item>
 
 </items>

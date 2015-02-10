@@ -24,42 +24,49 @@ public final class R {
         public static final int activity_vertical_margin=0x7f060001;
     }
     public static final class drawable {
-        public static final int button_find=0x7f020000;
-        public static final int button_search=0x7f020001;
-        public static final int edit_text_find=0x7f020002;
-        public static final int edit_text_home=0x7f020003;
-        public static final int ic_launcher=0x7f020004;
+        public static final int button_appirator=0x7f020000;
+        public static final int button_find=0x7f020001;
+        public static final int button_search=0x7f020002;
+        public static final int edit_text_find=0x7f020003;
+        public static final int edit_text_home=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
     }
     public static final class id {
-        public static final int action_settings=0x7f0b000d;
-        public static final int button_find=0x7f0b0008;
+        public static final int action_settings=0x7f0b0011;
+        public static final int button_find=0x7f0b000c;
         public static final int button_show_source=0x7f0b0002;
-        public static final int field_find=0x7f0b0007;
+        public static final int cancel=0x7f0b0007;
+        public static final int field_find=0x7f0b000b;
         public static final int field_url=0x7f0b0003;
-        public static final int firstLine=0x7f0b000b;
-        public static final int listView=0x7f0b0004;
+        public static final int firstLine=0x7f0b000f;
+        public static final int listView=0x7f0b0008;
+        public static final int message=0x7f0b0004;
         public static final int pager=0x7f0b0000;
         public static final int pager_title_strip=0x7f0b0001;
-        public static final int rate_app=0x7f0b000c;
-        public static final int res_type=0x7f0b0009;
-        public static final int secondLine=0x7f0b000a;
-        public static final int site_preview=0x7f0b0005;
-        public static final int source_code=0x7f0b0006;
+        public static final int rate=0x7f0b0005;
+        public static final int rateLater=0x7f0b0006;
+        public static final int rate_app=0x7f0b0010;
+        public static final int res_type=0x7f0b000d;
+        public static final int secondLine=0x7f0b000e;
+        public static final int site_preview=0x7f0b0009;
+        public static final int source_code=0x7f0b000a;
     }
     public static final class integer {
         public static final int appirator_days_before_reminding=0x7f070000;
         public static final int appirator_days_until_prompt=0x7f070001;
-        public static final int appirator_delay_before_launch=0x7f070002;
-        public static final int appirator_launches_until_prompt=0x7f070003;
+        public static final int appirator_delay_until_prompt=0x7f070002;
+        public static final int appirator_events_until_prompt=0x7f070003;
+        public static final int appirator_launches_until_prompt=0x7f070004;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int activity_type_url=0x7f030001;
-        public static final int fragment_enter_url=0x7f030002;
-        public static final int fragment_html_resource=0x7f030003;
-        public static final int fragment_preview=0x7f030004;
-        public static final int fragment_source_code=0x7f030005;
-        public static final int row_html_resources=0x7f030006;
+        public static final int appirater=0x7f030002;
+        public static final int fragment_enter_url=0x7f030003;
+        public static final int fragment_html_resource=0x7f030004;
+        public static final int fragment_preview=0x7f030005;
+        public static final int fragment_source_code=0x7f030006;
+        public static final int row_html_resources=0x7f030007;
     }
     public static final class menu {
         public static final int main=0x7f0a0000;
@@ -78,10 +85,15 @@ public final class R {
         public static final int field_url_hint=0x7f080008;
         public static final int hello_world=0x7f080009;
         public static final int menu_rateApp=0x7f08000a;
-        public static final int title_activity_type_url=0x7f08000b;
-        public static final int title_section1=0x7f08000c;
-        public static final int title_section2=0x7f08000d;
-        public static final int title_section3=0x7f08000e;
+        public static final int rate=0x7f08000b;
+        public static final int rate_cancel=0x7f08000c;
+        public static final int rate_later=0x7f08000d;
+        public static final int rate_message=0x7f08000e;
+        public static final int rate_title=0x7f08000f;
+        public static final int title_activity_type_url=0x7f080010;
+        public static final int title_section1=0x7f080011;
+        public static final int title_section2=0x7f080012;
+        public static final int title_section3=0x7f080013;
     }
     public static final class style {
         /** 
@@ -96,5 +108,6 @@ public final class R {
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f090001;
+        public static final int appiratorButton=0x7f090002;
     }
 }

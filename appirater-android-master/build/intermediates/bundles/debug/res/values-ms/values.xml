@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/appirater-android-master/src/main/res/values-ms/strings.xml -->
+    <eat-comment/>
+    <string name="rate">Tarafkan %s</string>
+    <string name="rate_cancel">Terima kasih saja</string>
+    <string name="rate_later">Ingatkan saya lain kali</string>
+    <string name="rate_message">Jika anda suka %s, bolehkah luangkan sedikit masa untuk beri penarafan? Tak sampai seminit pun. Terima kasih atas sokongan anda!</string>
+    <string name="rate_title">Tarafkan %s</string>
+</resources>

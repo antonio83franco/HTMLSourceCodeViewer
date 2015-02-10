@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/appirater-android-master/build/intermediates/bundles/debug/res/values-vi/values.xml -->
+    <eat-comment/>
+    <string name="rate">Đánh giá %s</string>
+    <string name="rate_cancel">Không, xin cảm ơn</string>
+    <string name="rate_later">Hãy nhắc nhở tôi sau</string>
+    <string name="rate_message">Cảm ơn bạn đã sử dụng ứng dụng %s trong thời gian qua, bạn có thể dành chút thời gian để đánh giá ứng dụng trong AppStore không?</string>
+    <string name="rate_title">Đánh giá %s</string>
+</resources>

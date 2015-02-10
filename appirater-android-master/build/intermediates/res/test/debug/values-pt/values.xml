@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/appirater-android-master/build/intermediates/bundles/debug/res/values-pt/values.xml -->
+    <eat-comment/>
+    <string name="rate">Avaliar o %s</string>
+    <string name="rate_cancel">Não, obrigado</string>
+    <string name="rate_later">Mais tarde</string>
+    <string name="rate_message">Se você gosta de usar o %s, que tal avaliá-lo? Não levará mais de um minuto. Agradecemos o seu apoio!</string>
+    <string name="rate_title">Avaliar o %s</string>
+</resources>

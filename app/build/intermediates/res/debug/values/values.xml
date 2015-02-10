@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/src/main/res/values/appirater-settings.xml -->
+    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater-android-master/unspecified/res/values/values.xml -->
     <eat-comment/>
     <bool name="appirator_test_mode">false</bool>
     <color name="appirator_button_end_color">#ff2f6699</color>
@@ -10,20 +10,21 @@
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/src/main/res/values/appirater-settings.xml -->
+    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater-android-master/unspecified/res/values/values.xml -->
     <eat-comment/>
-    <integer name="appirator_days_before_reminding">2</integer>
-    <integer name="appirator_days_until_prompt">0</integer>
-    <integer name="appirator_delay_before_launch">40000</integer>
-    <integer name="appirator_launches_until_prompt">0</integer>
+    <integer name="appirator_days_before_reminding">3</integer>
+    <integer name="appirator_days_until_prompt">30</integer>
+    <integer name="appirator_delay_until_prompt">40</integer>
+    <integer name="appirator_events_until_prompt">15</integer>
+    <integer name="appirator_launches_until_prompt">15</integer>
     <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="alert_url_invalid">OHH NO! The URL provided is not valid, try with something like: www.yoursite.com</string>
     <string name="app_name">HTML Source Viewer</string>
-    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/src/main/res/values/appirater-settings.xml -->
+    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater-android-master/unspecified/res/values/values.xml -->
     <eat-comment/>
-    <string name="appirator_app_title">@string/app_name</string>
+    <string name="appirator_app_title">Your App Name</string>
     <string name="appirator_market_url">market://details?id=%s</string>
     <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/src/main/res/values/strings.xml -->
     <eat-comment/>
@@ -33,6 +34,15 @@
     <string name="field_url_hint">E.g. yoursite.com</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_rateApp">Rate App</string>
+    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater-android-master/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="rate">Yes, Rate %s</string>
+    <string name="rate_cancel">No, Thanks</string>
+    <string name="rate_later">Remind me later</string>
+    <string name="rate_message">If you enjoy using %s, would you mind taking a moment to rate it? Thanks for your support!</string>
+    <string name="rate_title">Rate %s</string>
+    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
     <string name="title_activity_type_url">TypeUrlActivity</string>
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
@@ -48,5 +58,11 @@
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater-android-master/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="appiratorButton" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_appirator</item>
+        <item name="android:textColor">@color/appirator_button_text_color</item>
     </style>
 </resources>

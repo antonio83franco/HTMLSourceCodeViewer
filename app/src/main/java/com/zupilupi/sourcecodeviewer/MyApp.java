@@ -4,7 +4,7 @@ import android.app.Application;
 import android.os.AsyncTask;
 import android.util.Log;
 
-//import com.sbstrm.appirater.Appirater;
+import com.sbstrm.appirater.Appirater;
 
 public class MyApp extends Application {
 
@@ -33,11 +33,11 @@ public class MyApp extends Application {
 		@Override
 		protected MainActivity doInBackground(MainActivity... params) {
 
-			try {
-				Thread.sleep((long) MyApp.this.getResources().getInteger(R.integer.appirator_delay_before_launch));
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
+//			try {
+//				Thread.sleep((long) MyApp.this.getResources().getInteger(R.integer.appirator_delay_before_launch));
+//			} catch (InterruptedException e) {
+//				e.printStackTrace();
+//			}
 			return params[0];
 		}
 

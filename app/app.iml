@@ -85,6 +85,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="support-v4-18.0.0" level="project" />
     <orderEntry type="library" exported="" name="jsoup-1.7.2" level="project" />
+    <orderEntry type="module" module-name="appirater-android-master" exported="" />
   </component>
 </module>
 

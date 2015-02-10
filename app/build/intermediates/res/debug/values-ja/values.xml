@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/antonio/AndroidstudioProjects/sourcecodeviewer/app/build/intermediates/exploded-aar/sourcecodeviewer/appirater-android-master/unspecified/res/values-ja/values.xml -->
+    <eat-comment/>
+    <string name="rate">%sを評価する</string>
+    <string name="rate_cancel">いいえ</string>
+    <string name="rate_later">後で見る</string>
+    <string name="rate_message">楽しんでいただけたならば簡単なご意見をお願いします。%sを評価しますか？</string>
+    <string name="rate_title">%sの評価</string>
+</resources>

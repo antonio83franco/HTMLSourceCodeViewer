@@ -9,7 +9,7 @@ import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 
-//import com.sbstrm.appirater.Appirater;
+import com.sbstrm.appirater.Appirater;
 import com.zupilupi.sourcecodeviewer.fragments.HtmlResourcesFragment;
 import com.zupilupi.sourcecodeviewer.fragments.PreviewFragment;
 import com.zupilupi.sourcecodeviewer.fragments.SourceCodeFragment;
@@ -48,6 +48,10 @@ public class MainActivity extends FragmentActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+
+        //init App Rater
+        Appirater.appLaunched(this);
+
 		setContentView(R.layout.activity_main);
 		((MyApp) this.getApplication()).appLaunched(this);
 
@@ -87,7 +91,7 @@ public class MainActivity extends FragmentActivity {
 	    // Handle item selection
 	    switch (item.getItemId()) {
 	    case R.id.rate_app:
-//	    	Appirater.rateApp(this);
+	    	Appirater.rateApp(this);
 	        return true;
 	    default:
 	        return super.onOptionsItemSelected(item);
